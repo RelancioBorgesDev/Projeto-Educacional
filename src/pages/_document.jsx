@@ -5,7 +5,7 @@ export default class MyDocument extends Document{
         return (
             <Html>
                 <Head>
-                    //Adicionar fonte
+                 
                 </Head>
 
                 <body>
