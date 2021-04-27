@@ -8,6 +8,7 @@
     width: 100%;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
     position: fixed;
+    z-index: 2;
    
 
     img{
@@ -26,7 +27,14 @@
         .bar_list_item{
                 font-size: 1.2rem;
                 font-weight: 500;
-
+                transition: filter 0.2s;
+            &:first-child{
+                    font-weight: bold;
+                }
+            &:hover{
+                text-decoration: underline;
+                filter: brightness(0.9)
+            }
             .bar_list_item_link{
                 text-decoration: none;
                 color: var(--white);
