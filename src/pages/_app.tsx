@@ -1,4 +1,5 @@
 import Header from '../components/Header/Header'
+import Principal from '../components/Main/Principal'
 import '../styles/global.scss'
 
 function MyApp({ Component, pageProps }) {
@@ -7,6 +8,7 @@ function MyApp({ Component, pageProps }) {
     <main>
       <Header />
        <Component {...pageProps} />
+       <Principal/>
     </main>
   </div>
   )
