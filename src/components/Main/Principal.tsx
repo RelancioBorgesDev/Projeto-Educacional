@@ -12,7 +12,7 @@ export default function Principal(){
                 </a>
             </div>
             <div className={styles.principal_right}>
-                <img src="/class-img.svg" alt="" width={500} height={500}/>
+                <img src="/professor.svg" alt="" width={500} height={500}/>
             </div>
         </main>
         

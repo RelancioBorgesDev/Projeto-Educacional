@@ -1,12 +1,14 @@
 .header{
+    max-width: 300vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0.5rem;
     background-color: var(--blue);
     width: 100%;
-    box-shadow: 0 4px 2px -2px dark-ba;
-
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    position: fixed;
+   
 
     img{
         margin-left: 8rem;
