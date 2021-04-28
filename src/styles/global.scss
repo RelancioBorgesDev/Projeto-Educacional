@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+html{
+    background: var(--blue);
+}
 :root{
     --blue: #3663bf;
     --dark-blue: #1d3f83;

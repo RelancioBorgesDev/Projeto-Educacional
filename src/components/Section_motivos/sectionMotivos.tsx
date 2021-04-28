@@ -7,7 +7,6 @@ export default function SectionMotivos(){
             <div>
                 <h1>Utilize nossa plataforma para organizar suas tarefas </h1>
             </div>
-
             <div className={styles.principal_motivs}>
                 <div className={styles.numbers}> 
                     <span className={styles.number}>1</span>
@@ -28,14 +27,9 @@ export default function SectionMotivos(){
                     </div>
                     <div>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
-                    </div>
-                   
+                    </div> 
                 </div>
-
-            </div>
-                
-        
-        
+            </div>     
         </section>
     )
 }
