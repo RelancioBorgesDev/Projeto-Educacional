@@ -6,8 +6,8 @@ export default function Header(){
         <header className={styles.header}>
             <img className={styles.header_logo} src="/logo.svg" 
             alt="logo do site" 
-            width={60}  
-            height={80}
+            width={200}  
+            height={100}
             />
             
                 <ul className={styles.bar_list}>

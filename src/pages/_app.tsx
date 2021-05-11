@@ -1,3 +1,4 @@
+import Footer from '../components/Footer/footer'
 import Header from '../components/Header/Header'
 import Principal from '../components/Main/Principal'
 import Section from '../components/Section/section'
@@ -5,7 +6,7 @@ import SectionMotivos from '../components/Section_motivos/sectionMotivos'
 import SectionNovidades from '../components/Section_novidades/sectionNovidades'
 import '../styles/global.scss'
 
-function MyApp({ Component, pageProps }) {
+export default function App({ Component, pageProps }) {
   return(
   <div>
     <main>
@@ -15,9 +16,10 @@ function MyApp({ Component, pageProps }) {
        <Section/>
        <SectionMotivos/>
        <SectionNovidades/>
+       <Footer/>
     </main>
   </div>
   )
 }
 
-export default MyApp
+

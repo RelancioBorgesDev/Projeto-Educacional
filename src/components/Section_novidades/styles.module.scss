@@ -7,6 +7,8 @@
     justify-content: space-between;
     align-items: center;
     background: var(--dark-blue) fixed;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
     div{
         display: flex;
         flex-direction: column;
@@ -28,6 +30,10 @@
         background: var(--gray-100);
         padding: 0.5rem;
         input{
+            font-size: 1.2rem;
+            font-family: 'Inter',sans-serif;
+            outline: none;
+            color: var(--black);
             width: 75%;
             padding: 0.5rem;
             border: none;
