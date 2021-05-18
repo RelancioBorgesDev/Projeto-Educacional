@@ -20,10 +20,11 @@
        background: var(--gray-100);
        background-attachment: fixed;
        transition: all .2s ease-in-out;
+  
 
        &:hover{
         transform: scale(1.1);
-        z-index: 1;
+        
        }
    }
    p{   

@@ -52,3 +52,13 @@ h2{
 button{
     cursor: pointer;
 }
+
+
+.react_modal_content{
+    width: 100%;
+    max-width: 576px;
+    background: var(--white);
+    padding: 3rem;
+    position: relative;
+    border-radius: 0.24rem;
+ }
