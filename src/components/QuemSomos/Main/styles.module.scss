@@ -1,0 +1,45 @@
+.main{
+    max-width: 300vh;
+    max-height: 150vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 6rem;
+    padding: 1rem 4rem;
+    background: fixed;
+    background-color: var(--blue);
+  .card{
+        width: 100%;
+        height: 70vh;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       gap: 10rem;
+        border-radius: 2rem;
+       padding: 3rem;
+       box-shadow: 0px 10px 5px rgba(0,0,0,.2);
+       background: var(--gray-100);
+       background-attachment: fixed;
+       transition: all .2s ease-in-out;
+  
+
+       &:hover{
+        transform: scale(1.1);
+        
+       }
+       h1{
+           font-size:1.4rem ;
+           color: var(--dark-blue);
+       }
+       .socials{
+            display: flex;
+            align-items: center;
+            gap: 2.5rem;
+            justify-content:space-around;
+       }
+
+
+
+   }
+
+}

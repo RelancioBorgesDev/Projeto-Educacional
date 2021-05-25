@@ -22,7 +22,7 @@ export default function CadastreSeModal({ isOpen, onRequestClose }: newModalOpen
                 <input type="password" name="" id="" />
                 <label htmlFor="">Repita a Senha:</label>
                 <input type="password" name="" id="" />
-                <button type="submit">Entrar</button>
+                <button type="submit">Cadastrar</button>
             </form>
         </Modal>
     )

@@ -38,7 +38,14 @@
             }
 
     }
-    
+    a{
+        text-decoration:none;
+
+        small{
+            color: var(--blue);
+            font-size: 0.8rem;
+        }
+    }
     button[type="submit"]{
         width:100%;
         padding: 0 1.5rem;

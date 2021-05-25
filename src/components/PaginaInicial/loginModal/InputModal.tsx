@@ -4,8 +4,9 @@ import styles from './styles.module.scss'
 
 interface newModalOpen{
     isOpen: boolean;
-    onRequestClose: () => void;
+    onRequestClose: () => void; 
 }
+
 
 export default function inputModal({ isOpen, onRequestClose }: newModalOpen){
     return(
@@ -22,6 +23,11 @@ export default function inputModal({ isOpen, onRequestClose }: newModalOpen){
                 <input type="email" name="" id="" />
                 <label htmlFor="">Senha:</label>
                 <input type="password" name="" id="" />
+
+                <a href="">
+                    <small>Esqueceu sua senha ?</small>
+                </a>
+               
                 <button type="submit">Entrar</button>
             </form>
 
