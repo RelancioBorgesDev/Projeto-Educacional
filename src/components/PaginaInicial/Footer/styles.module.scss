@@ -45,3 +45,45 @@
         font-weight: bold;
     }
 }
+
+@media (max-width: 1080px){
+    .footer_items{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 2rem;
+        img{
+            display: none;
+        }
+       
+    }
+}
+
+@media (min-width: 1440px){
+    .footer{
+        max-width:300vh;
+        display: flex;
+        justify-content: space-around;
+        gap: 15rem;
+        align-items: center;
+        .copy{
+            display: flex;
+            gap: 2rem;
+            margin-top: 3.5rem;
+            justify-content: flex-end;
+            align-items: center;
+            color: var(--white);
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+    }
+    .footer_items{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+       
+       
+    }
+}

@@ -1,6 +1,5 @@
 .principal_area{
-    width: -200vh;
-    margin-top: 5rem;
+    max-width: 1440px;
     padding: 2rem;
     display: flex;
     flex-direction: column;
@@ -51,5 +50,11 @@
                 color: var(--blue);
             }
         }
+    }
+}
+
+@media screen and (min-width: 768px){
+    .principal_area{
+        max-width: 100%;
     }
 }

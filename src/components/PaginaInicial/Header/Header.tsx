@@ -1,6 +1,6 @@
 import * as React from 'react';
 import styles from './styles.module.scss' 
-import { useState } from 'react';
+import Link from 'next/link';
 
 interface HeaderProps{
     onOpenModal: () => void;
@@ -10,23 +10,22 @@ export default function Header({ onOpenModal }: HeaderProps){
 
     return(
         <header className={styles.header}>
-            <img className={styles.header_logo} src="/logo.svg" 
+           <Link href="/PaginaInicial"><img className={styles.header_logo} src="/logo.svg" 
             alt="logo do site" 
             width={200}  
             height={100}
             />
+            </Link> 
             
                 <ul className={styles.bar_list}>
+        
                     <li className={styles.bar_list_item}>
-                        <a href="#" className={styles.bar_list_item_link}>Planos</a>
+                    <Link href="/QuemSomos" >Quem Somos</Link>
                     </li>
                     <li className={styles.bar_list_item}>
-                        <a href="#" className={styles.bar_list_item_link}>Quem Somos</a>
+                    <Link href="/Contato">Contato</Link>
                     </li>
-                    <li className={styles.bar_list_item}>
-                        <a href="#" className={styles.bar_list_item_link}>Contato</a>
-                    </li>
-                        <a href="#">
+                        <Link href="">
                             <button 
                             type="button" 
                             className={styles.btn_login}
@@ -34,7 +33,7 @@ export default function Header({ onOpenModal }: HeaderProps){
                             >
                                 Entrar
                             </button>
-                        </a>
+                        </Link>
                   
                 
                 </ul>

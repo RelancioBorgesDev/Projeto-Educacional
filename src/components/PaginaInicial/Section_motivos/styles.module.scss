@@ -74,3 +74,29 @@
         }    
         
 }
+
+@media (max-width: 960px){
+    .secao_secundaria{
+        display: flex;
+        align-items:center;
+        flex-direction:column;
+        justify-content: space-around;
+        font-size: 93.75%;
+        margin-top: 2rem;
+
+        h1{
+            text-align: center;
+        }
+        .principal_motivs{
+            .numbers{
+                margin-left: 5rem;
+            }
+            h1{
+                text-align: center;
+            }
+            img{
+                display:none;
+            }
+        }
+    }
+}

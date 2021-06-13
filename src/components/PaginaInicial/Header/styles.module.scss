@@ -9,10 +9,14 @@
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
     z-index: 1;
     
-   
+   a{
+    text-decoration: none;
+    color: var(--white);
+   }
 
     img{
         margin-left: 8rem;
+        cursor: pointer;
     }
 
     .bar_list{
@@ -28,12 +32,11 @@
                 font-size: 1.2rem;
                 font-weight: 500;
                 font-family: 'Inter', sans-serif;
-                transition: filter 0.2s;
+                transition: filter 0.5s;
             &:first-child{
                     font-weight: bold;
                 }
             &:hover{
-                text-decoration: underline;
                 filter: brightness(0.9)
             }
             .bar_list_item_link{
@@ -55,5 +58,20 @@
                 color: var(--blue);
             }
         }
+    }
+}
+
+
+@media (max-width: 1080px){
+    .header{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2rem;
+        img{
+            margin-left:0;
+        }
+        
     }
 }

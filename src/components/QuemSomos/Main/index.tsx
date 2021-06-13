@@ -1,4 +1,6 @@
 import styles from './styles.module.scss'
+import {FaInstagram, FaFacebook, FaTwitter} from 'react-icons/fa'
+import Link from 'next/link'
 
 export default function MainQuemSomos (){
     return(
@@ -10,15 +12,15 @@ export default function MainQuemSomos (){
                     <img src="" alt="" />
                 </span>
                 <div className={styles.socials}>
-                <a href="">
-                        <img src="/instagram.svg" width={40} height={40}/>
-                    </a>
-                    <a href="">
-                        <img src="/facebook.svg" width={40} height={40}/>
-                    </a>
-                    <a href="">
-                        <img src="/twitter.svg" width={40} height={40}/>
-                    </a>
+                <Link href="#">
+                        <FaInstagram color="#bc1888 " className={styles.icon}/>
+                    </Link>
+                    <Link href="">
+                        <FaFacebook color="blue" className={styles.icon}/>
+                    </Link>
+                    <Link href="">
+                        <FaTwitter color="#1DA1F2" className={styles.icon}/>
+                    </Link>
                 </div> 
             </div>
 
@@ -29,17 +31,16 @@ export default function MainQuemSomos (){
                     <img src="" alt="" />
                 </span>
                 <div className={styles.socials}>
-                <a href="">
-                        <img src="/instagram.svg" width={40} height={40}/>
-                    </a>
-                    <a href="">
-                        <img src="/facebook.svg" width={40} height={40}/>
-                    </a>
-                    <a href="">
-                        <img src="/twitter.svg" width={40} height={40}/>
-                    </a>
+                <Link href="#">
+                        <FaInstagram color="#bc1888 " className={styles.icon}/>
+                    </Link>
+                    <Link href="">
+                        <FaFacebook color="blue" className={styles.icon}/>
+                    </Link>
+                    <Link href="">
+                        <FaTwitter color="#1DA1F2" className={styles.icon}/>
+                    </Link>
                 </div> 
-                
             </div>
 
             <div className={styles.card}>
@@ -49,15 +50,15 @@ export default function MainQuemSomos (){
                     <img src="" alt="" />
                 </span>
                 <div className={styles.socials}>
-                <a href="">
-                        <img src="/instagram.svg" width={40} height={40}/>
-                    </a>
-                    <a href="">
-                        <img src="/facebook.svg" width={40} height={40}/>
-                    </a>
-                    <a href="">
-                        <img src="/twitter.svg" width={40} height={40}/>
-                    </a>
+                <Link href="#">
+                        <FaInstagram color="#bc1888 " className={styles.icon}/>
+                    </Link>
+                    <Link href="">
+                        <FaFacebook color="blue" className={styles.icon}/>
+                    </Link>
+                    <Link href="">
+                        <FaTwitter color="#1DA1F2" className={styles.icon}/>
+                    </Link>
                 </div> 
             </div>
 

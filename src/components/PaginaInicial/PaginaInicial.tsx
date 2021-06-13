@@ -8,7 +8,7 @@ import Section from "./Section/section";
 import SectionMotivos from "./Section_motivos/sectionMotivos";
 import SectionNovidades from "./Section_novidades/sectionNovidades";
 
-export default function PaginaInicial (){
+export default function PG (){
     const [modal, setModal] = useState(false);
     const [cadastreModalOpen, setCadastreModalOpen] = useState(false);
 
